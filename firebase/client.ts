@@ -32,7 +32,6 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
  export const addGuest = async (guest: Guest) => {
-    console.log("And the secret is!!!", process.env.NEXT_PUBLIC_MOCK_SECRET)
      try {
          const docRef = await addDoc(collection(db, "guests"), guest);
          console.log("Document written with ID: ", docRef.id);
