@@ -10,8 +10,9 @@ interface Props {
 
 export const ImageCard = ({imageSrc, srcUrl, imageAlt, title, subtitle}: Props): JSX.Element => {
   return (
-      <section className='relative w-full pb-[100%] mt-[-12px] lg:pb-[45%]'>
+      <section className='relative w-full pb-[100%] mt-[-12px] lg:pb-[45%] '>
           <Image
+          className='grayscale-[80%]'
               priority
               src={imageSrc}
               alt={imageAlt}

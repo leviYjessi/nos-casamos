@@ -26,7 +26,7 @@ export default function Home() {
                 backgroundImage: `url(${bg.src})`,
                 backgroundRepeat: 'repeat',
             }}>
-                <main className='flex flex-col'>
+                <main className='flex flex-col bg-grey-bg'>
                     <div className="flex flex-col items-center font-sans max-w-5xl">
                         <NavigationHeader/>
                         <Presentation/>
@@ -34,13 +34,13 @@ export default function Home() {
                         <AboutUs/>
                         <div className='w-full flex flex-col lg:flex-row'>
                             <ImageCard
-                                imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}images/castle.svg`}
+                                imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}images/ceremonia.png`}
                                 srcUrl='https://goo.gl/maps/iYprQ1yiyiREbPYi9'
                                 imageAlt='Imagen del castillo de bellver, donde nos casamos'
                                 title='LA CEREMONIA'
                                 subtitle='12:30 - Castillo de Bellver'/>
                             <ImageCard
-                                imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}images/Lume.svg`}
+                                imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}images/festin.png`}
                                 srcUrl='https://goo.gl/maps/s7af1x5Bcmf6YjV88'
                                 imageAlt='Imagen del Lume, donde celebramos el banquete'
                                 title='LA FIESTA'

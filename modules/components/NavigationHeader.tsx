@@ -42,13 +42,13 @@ export const NavigationHeader = (): JSX.Element => {
             <div className="flex w-full flex-row justify-between max-w-5xl">
                 <h1>
                     <Link href="/" className="flex font-normal  leading-6">
-                        <span className="pr-2">LORENA</span>
+                        <span className="pr-2">LEVI</span>
                         <Image
                                src={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}icons/rings-white.svg`}
                                height={24}
                                width={50}
                                alt="Anillos entrelazados"/>
-                        <span className="pl-2">ROBERTO</span>
+                        <span className="pl-2">JESSICA</span>
                     </Link>
                 </h1>
                 { isMobile ? (

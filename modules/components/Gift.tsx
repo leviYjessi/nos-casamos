@@ -4,10 +4,10 @@ const Gift = (): JSX.Element => {
     return (
         <div className="flex flex-col items-center px-4 pt-10 text-center bg-white w-full">
             <h3 className="tracking-widest leading-6 text-xl font-bold">
-                El mejor regalo es que nos acompañéis en este día...
+            Lo más importante para nosotros es que estés presente en nuestro gran día.
             </h3>
             <p className="tracking-widest leading-6 pt-4 lg:pt-8">
-                Pero si aun así quereís hacernos un regalo, podéis hacerlo aquí:
+            Si además deseas contribuir a nuestra luna de miel, te estaremos eternamente agradecidos. ¡Gracias por ser parte de nuestra historia!
             </p>
             <p className="tracking-widest  leading-6 pt-4 lg:pt-8 lg:tracking-wider">
                 ES61 1465 0100 98 2046018522

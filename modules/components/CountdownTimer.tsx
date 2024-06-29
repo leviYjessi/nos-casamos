@@ -18,16 +18,19 @@ const CountdownTimer = ({ date }: Props) => {
 
         if (completed) {
             return (
-                <p className="flex flex-row gap-2 justify-center tracking-widest  leading-6 py-4 lg:py-0">
-                    ¡La boda ha comenzado!</p>
+                <div className="flex flex-row flex-wrap gap-6 justify-center tracking-widest leading-6 py-3 text-sm">
+                <p className="font-bold tabular-nums">{0} <span className="font-normal">días</span></p>
+                <p className="font-bold tabular-nums">{0} <span className="font-normal">horas</span></p>
+                <p className="font-bold tabular-nums">{0} <span className="font-normal">min</span></p>
+                </div>
             )
         } else {
             return (
-                <p className="flex flex-row flex-wrap gap-2 justify-center tracking-widest  leading-6 py-4">
-                    <span className="font-bold tabular-nums">{days}</span> días
-                    <span className="font-bold tabular-nums">{hours}</span> horas
-                    <span className="font-bold tabular-nums">{minutes}</span> minutos
-                    <span className="font-bold tabular-nums">{seconds}</span> segundos </p>
+                <div className="flex flex-row flex-wrap gap-6 justify-center tracking-widest leading-6 py-3 text-sm">
+                    <p className="font-bold tabular-nums">{days} <span className="font-normal">días</span></p>
+                    <p className="font-bold tabular-nums">{hours} <span className="font-normal">horas</span></p>
+                    <p className="font-bold tabular-nums">{minutes} <span className="font-normal">min</span></p>
+                    </div>
             );
         }
     };
