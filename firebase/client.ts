@@ -33,6 +33,7 @@ const db = getFirestore(app);
 
  export const addGuest = async (guest: Guest) => {
      try {
+        console.log(process.env.NEXT_PUBLIC_MOCK_SECRET)
          const docRef = await addDoc(collection(db, "guests"), guest);
          console.log("Document written with ID: ", docRef.id);
      } catch (e) {
