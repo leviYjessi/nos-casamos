@@ -13,13 +13,21 @@ export const Presentation = (): JSX.Element => {
   const [isMobile, setIsMobile] = useState(false);
   const hasArrivedToMaxWith = useMediaQuery("(max-width: 1023px)");
 
+  const settings = {
+    dots: false,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
   useEffect(() => {
     setIsMobile(hasArrivedToMaxWith);
   }, [hasArrivedToMaxWith]);
 
   return (
     <section className="flex flex-col lg:items-center lg:flex-row w-full">
-      <div className="relative w-full pb-[100%] mt-6 lg:flex-col lg:mt-12 lg:pb-[95%]">
+      <div className="relative w-full pb-[100%] mt-6 lg:flex-col lg:mt-[-6px] lg:pb-[95%]">
         {isMobile ? (
           <Image
             src={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}images/couple-image.jpg`}

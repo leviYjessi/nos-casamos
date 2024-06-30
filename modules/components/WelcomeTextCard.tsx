@@ -22,7 +22,8 @@ export const WelcomeTextCard = (): JSX.Element => {
         <h3 className="tracking-widest leading-6 lg:text-2xl">¡Nos casamos!</h3>
       )}
       <p className="tracking-widest leading-6 pt-6 text-center lg:text-xl lg:pt-8 lg:tracking-wider">
-        Después de un emocionante viaje juntos, ha llegado el momento de celebrar nuestro amor y compromiso.
+        Después de un emocionante viaje juntos, ha llegado el momento de
+        celebrar nuestro amor y compromiso.
       </p>
       <p className="tracking-widest leading-6 py-4 text-center lg:text-xl lg:px-8 lg:tracking-wider">
         Queremos que nos acompañes en este día tan especial, lleno de alegría,
