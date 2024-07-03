@@ -29,14 +29,14 @@ export default function Home() {
             <AboutUs />
             <div className="w-full flex flex-col lg:flex-row">
               <ImageCard
-                imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}images/ceremonia.png`}
+                imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}images/ceremonia.jpg`}
                 srcUrl="https://maps.app.goo.gl/GQdfLSD8Wrdv5raV8"
                 imageAlt="Imagen de Na Capitana, donde nos casamos"
                 title="LA CEREMONIA"
                 subtitle="12:30 - Na Capitana"
               />
               <ImageCard
-                imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}images/festin.png`}
+                imageSrc={`${process.env.NEXT_PUBLIC_IMAGES_ROUTE}images/festin.jpg`}
                 srcUrl="https://maps.app.goo.gl/GQdfLSD8Wrdv5raV8"
                 imageAlt="Imagen de Na Capitana, donde celebramos el banquete"
                 title="LA FIESTA"
